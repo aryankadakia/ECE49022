@@ -1,0 +1,6 @@
+
+State Machine - |system|state
+Name state.IDLE state.DONE state.SHIFT 
+state.IDLE 0 0 0 
+state.SHIFT 1 0 1 
+state.DONE 1 1 0 

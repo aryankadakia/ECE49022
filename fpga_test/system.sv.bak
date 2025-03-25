@@ -1,0 +1,11 @@
+module system (
+	input clk,
+	input nRst
+	output led
+);
+	led_blink lb(.clk(clk),
+					 .nRst(nRst),
+					 .led(led));
+
+
+endmodule

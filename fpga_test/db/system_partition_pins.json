@@ -1,0 +1,53 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "peak_found",
+					"strict" : false
+				},
+				{
+					"name" : "m_sequence[3]",
+					"strict" : false
+				},
+				{
+					"name" : "m_sequence[5]",
+					"strict" : false
+				},
+				{
+					"name" : "m_sequence[4]",
+					"strict" : false
+				},
+				{
+					"name" : "m_sequence[1]",
+					"strict" : false
+				},
+				{
+					"name" : "m_sequence[2]",
+					"strict" : false
+				},
+				{
+					"name" : "m_sequence[6]",
+					"strict" : false
+				},
+				{
+					"name" : "m_sequence[0]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "nRst",
+					"strict" : false
+				},
+				{
+					"name" : "start",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

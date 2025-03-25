@@ -1,0 +1,348 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+!s11f vlog 2022.4_5 2024.06, Jun 21 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/shay/a/kadakia0/ECE49022/fpga_test
+T_opt
+!s110 1741273647
+VLlQKk;8dW_7RCa9^lW7`d1
+04 9 4 work system_tb fast 0
+=1-509a4c0c58ce-67c9ba2e-7cd49-1f9285
+R0
+!s12b OEM100
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+Z2 tCvgOpt 0
+n@_opt
+OE;O;2022.4_5;75
+valu
+Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z4 DXx4 work 13 cpu_types_pkg 0 22 =Wlm480C3QjiE=6?V[bZ63
+DXx4 work 11 alu_sv_unit 0 22 YJcid7=]`8J4k9hCAWRKb0
+Z5 !s110 1741273645
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 QkfLPKj<?TG01cSaZREj]0
+IaNZe?[CP0E1zP36:;`W770
+!s105 alu_sv_unit
+S1
+R1
+Z7 w1741162793
+Z8 8/home/shay/a/kadakia0/ECE49022/fpga_test/source/alu.sv
+Z9 F/home/shay/a/kadakia0/ECE49022/fpga_test/source/alu.sv
+!i122 1
+L0 6 62
+Z10 OE;L;2022.4_5;75
+31
+Z11 !s108 1741273645.000000
+Z12 !s107 /home/shay/a/kadakia0/ECE49022/fpga_test/source/cpu_types_pkg.vh|/home/shay/a/kadakia0/ECE49022/fpga_test/source/alu_if.vh|/home/shay/a/kadakia0/ECE49022/fpga_test/source/alu.sv|
+Z13 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/shay/a/kadakia0/ECE49022/fpga_test/source|/home/shay/a/kadakia0/ECE49022/fpga_test/source/alu.sv|
+!i113 0
+Z14 o-sv -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z15 !s92 -sv -work work +incdir+/home/shay/a/kadakia0/ECE49022/fpga_test/source -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+valu_fpga
+R3
+R4
+DXx4 work 16 alu_fpga_sv_unit 0 22 TkAAGlB<XVgB>MIjz=fGO0
+R5
+R6
+r1
+!s85 0
+!i10b 1
+!s100 6G?;mOJ]UUl[O@<Nc1iRE0
+I6EK`0PN9I@X?UC6fF9LP;0
+!s105 alu_fpga_sv_unit
+S1
+R1
+Z16 w1741164499
+Z17 8/home/shay/a/kadakia0/ECE49022/fpga_test/source/alu_fpga.sv
+Z18 F/home/shay/a/kadakia0/ECE49022/fpga_test/source/alu_fpga.sv
+!i122 2
+L0 6 182
+R10
+31
+R11
+Z19 !s107 /home/shay/a/kadakia0/ECE49022/fpga_test/source/cpu_types_pkg.vh|/home/shay/a/kadakia0/ECE49022/fpga_test/source/alu_if.vh|/home/shay/a/kadakia0/ECE49022/fpga_test/source/alu_fpga.sv|
+Z20 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/shay/a/kadakia0/ECE49022/fpga_test/source|/home/shay/a/kadakia0/ECE49022/fpga_test/source/alu_fpga.sv|
+!i113 0
+R14
+R15
+R2
+Xalu_fpga_sv_unit
+R3
+R4
+R5
+VTkAAGlB<XVgB>MIjz=fGO0
+r1
+!s85 0
+!i10b 1
+!s100 h47Zo0BS3D5NcLj?QHfUA2
+ITkAAGlB<XVgB>MIjz=fGO0
+!i103 1
+S1
+R1
+R16
+R17
+R18
+Z21 F/home/shay/a/kadakia0/ECE49022/fpga_test/source/alu_if.vh
+Z22 F/home/shay/a/kadakia0/ECE49022/fpga_test/source/cpu_types_pkg.vh
+!i122 2
+Z23 L0 4 0
+R10
+31
+R11
+R19
+R20
+!i113 0
+R14
+R15
+R2
+Yalu_if
+R3
+Z24 DXx4 work 13 cpu_types_pkg 0 22 J@`>HJJYHkU:]h[2gW6N>0
+Z25 !s110 1741273646
+!i10b 1
+!s100 ISczGIHI<T?aUTHo``fAJ0
+I;1?SzDX5=J<DiacK<Pm7n2
+S1
+R1
+w1741160824
+8/home/shay/a/kadakia0/ECE49022/fpga_test/source/alu_if.vh
+R21
+!i122 5
+L0 9 0
+R6
+R10
+r1
+!s85 0
+31
+Z26 !s108 1741273646.000000
+Z27 !s107 /home/shay/a/kadakia0/ECE49022/fpga_test/source/alu_if.vh|/home/shay/a/kadakia0/ECE49022/fpga_test/source/register_file_if.vh|/home/shay/a/kadakia0/ECE49022/fpga_test/source/cpu_types_pkg.vh|/home/shay/a/kadakia0/ECE49022/fpga_test/source/system_tb.sv|
+Z28 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/shay/a/kadakia0/ECE49022/fpga_test/source|/home/shay/a/kadakia0/ECE49022/fpga_test/source/system_tb.sv|
+!i113 0
+R14
+R15
+R2
+Xalu_sv_unit
+R3
+R4
+R5
+VYJcid7=]`8J4k9hCAWRKb0
+r1
+!s85 0
+!i10b 1
+!s100 ^?cUGDh5Ch:h^mk]ee[P72
+IYJcid7=]`8J4k9hCAWRKb0
+!i103 1
+S1
+R1
+R7
+R8
+R9
+R21
+R22
+!i122 1
+R23
+R10
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R2
+Xcpu_types_pkg
+R3
+R25
+!i10b 1
+!s100 mT9ahDoE3^?5C=7GW5SIT3
+IJ@`>HJJYHkU:]h[2gW6N>0
+S1
+R1
+w1741157697
+8/home/shay/a/kadakia0/ECE49022/fpga_test/source/cpu_types_pkg.vh
+R22
+!i122 5
+R23
+VJ@`>HJJYHkU:]h[2gW6N>0
+R10
+r1
+!s85 0
+31
+R26
+R27
+R28
+!i113 0
+R14
+R15
+R2
+vled_blink
+R3
+R25
+!i10b 1
+!s100 RoFKCRgU=2UWz1?hF8][62
+Ib=bRm1?U@6hh@:O1Izm_n1
+S1
+R1
+w1741105834
+8/home/shay/a/kadakia0/ECE49022/fpga_test/source/led_blink.sv
+F/home/shay/a/kadakia0/ECE49022/fpga_test/source/led_blink.sv
+!i122 3
+L0 1 19
+R6
+R10
+r1
+!s85 0
+31
+R11
+!s107 /home/shay/a/kadakia0/ECE49022/fpga_test/source/led_blink.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/shay/a/kadakia0/ECE49022/fpga_test/source|/home/shay/a/kadakia0/ECE49022/fpga_test/source/led_blink.sv|
+!i113 0
+R14
+R15
+R2
+vregister_file
+R3
+R4
+DXx4 work 21 register_file_sv_unit 0 22 3I2?c^G824S6ZNk>Eh9472
+R5
+R6
+r1
+!s85 0
+!i10b 1
+!s100 P8BoDDcDOVBQ@kR^5Dad=3
+IRUdKedBjL7P[:Igo;CPCI2
+!s105 register_file_sv_unit
+S1
+R1
+Z29 w1741158122
+Z30 8/home/shay/a/kadakia0/ECE49022/fpga_test/source/register_file.sv
+Z31 F/home/shay/a/kadakia0/ECE49022/fpga_test/source/register_file.sv
+!i122 0
+L0 6 35
+R10
+31
+R11
+Z32 !s107 /home/shay/a/kadakia0/ECE49022/fpga_test/source/cpu_types_pkg.vh|/home/shay/a/kadakia0/ECE49022/fpga_test/source/register_file_if.vh|/home/shay/a/kadakia0/ECE49022/fpga_test/source/register_file.sv|
+Z33 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/shay/a/kadakia0/ECE49022/fpga_test/source|/home/shay/a/kadakia0/ECE49022/fpga_test/source/register_file.sv|
+!i113 0
+R14
+R15
+R2
+Yregister_file_if
+R3
+R24
+R25
+!i10b 1
+!s100 8oXHNn^GeK9fILAG_88Rf1
+IO3[hZgB6g^b4PoLl0;gf72
+S1
+R1
+w1741158097
+8/home/shay/a/kadakia0/ECE49022/fpga_test/source/register_file_if.vh
+Z34 F/home/shay/a/kadakia0/ECE49022/fpga_test/source/register_file_if.vh
+!i122 5
+L0 7 0
+R6
+R10
+r1
+!s85 0
+31
+R26
+R27
+R28
+!i113 0
+R14
+R15
+R2
+Xregister_file_sv_unit
+R3
+R4
+R5
+V3I2?c^G824S6ZNk>Eh9472
+r1
+!s85 0
+!i10b 1
+!s100 hm]V>?F:1k`Z3g^G=VUN92
+I3I2?c^G824S6ZNk>Eh9472
+!i103 1
+S1
+R1
+R29
+R30
+R31
+R34
+R22
+!i122 0
+R23
+R10
+31
+R11
+R32
+R33
+!i113 0
+R14
+R15
+R2
+vsystem
+R3
+R4
+R25
+!i10b 1
+!s100 iekh[`<n?;^@O9XSU`l=O0
+IE7T9_:]dcTPKB6P<MMkK21
+S1
+R1
+w1741235815
+8/home/shay/a/kadakia0/ECE49022/fpga_test/source/system.sv
+F/home/shay/a/kadakia0/ECE49022/fpga_test/source/system.sv
+!i122 4
+L0 5 90
+R6
+R10
+r1
+!s85 0
+31
+R26
+!s107 /home/shay/a/kadakia0/ECE49022/fpga_test/source/alu_if.vh|/home/shay/a/kadakia0/ECE49022/fpga_test/source/register_file_if.vh|/home/shay/a/kadakia0/ECE49022/fpga_test/source/cpu_types_pkg.vh|/home/shay/a/kadakia0/ECE49022/fpga_test/source/system.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/shay/a/kadakia0/ECE49022/fpga_test/source|/home/shay/a/kadakia0/ECE49022/fpga_test/source/system.sv|
+!i113 0
+R14
+R15
+R2
+vsystem_tb
+R3
+R25
+!i10b 1
+!s100 o<IC0kN<PV@PU;GDNEnz51
+IT7H<@jQgdH9`]fmQY`=I<0
+S1
+R1
+w1741225647
+8/home/shay/a/kadakia0/ECE49022/fpga_test/source/system_tb.sv
+F/home/shay/a/kadakia0/ECE49022/fpga_test/source/system_tb.sv
+!i122 5
+L0 5 70
+R6
+R10
+r1
+!s85 0
+31
+R26
+R27
+R28
+!i113 0
+R14
+R15
+R2

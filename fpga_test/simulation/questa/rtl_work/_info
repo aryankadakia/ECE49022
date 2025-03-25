@@ -1,0 +1,362 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+!s11f vlog 2022.4_5 2024.06, Jun 21 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/shay/a/kadakia0/ECE49022/fpga_test/simulation/questa
+T_opt
+!s110 1741150469
+VFbAlD;9I41U3lHZ`3fnXk3
+04 9 4 work system_tb fast 0
+=1-509a4c0c58ce-67c7d905-1f488-15bd3a
+R0
+!s12b OEM100
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+Z2 tCvgOpt 0
+n@_opt
+OE;O;2022.4_5;75
+R1
+valu
+Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z4 DXx4 work 13 cpu_types_pkg 0 22 nS@BnINm8Ck=Gigmj`g@E1
+DXx4 work 11 alu_sv_unit 0 22 aYg1j;zElO@gUQi`695zb0
+Z5 !s110 1741235818
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 QkfLPKj<?TG01cSaZREj]0
+Im^@P=FlPW1P5]YZe;X93n3
+!s105 alu_sv_unit
+S1
+R1
+Z7 w1741162793
+Z8 8../../source/alu.sv
+Z9 F../../source/alu.sv
+!i122 111
+L0 6 62
+Z10 OE;L;2022.4_5;75
+31
+Z11 !s108 1741235818.000000
+!s107 ../../source/register_file_if.vh|../../source/cpu_types_pkg.vh|../../source/alu_if.vh|../../source/system_tb.sv|../../source/system.sv|../../source/system_fpga.sv|../../source/register_file.sv|../../source/led_blink.sv|../../source/alu.sv|../../source/alu_fpga.sv|
+Z12 !s90 -sv|../../source/alu_fpga.sv|../../source/alu.sv|../../source/led_blink.sv|../../source/register_file.sv|../../source/system_fpga.sv|../../source/system.sv|../../source/system_tb.sv|-work|work|
+!i113 0
+Z13 o-sv -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+valu_fpga
+R3
+R4
+DXx4 work 16 alu_fpga_sv_unit 0 22 4hG6M_X9FFcK4L26`@=Ff3
+R5
+R6
+r1
+!s85 0
+!i10b 1
+!s100 6G?;mOJ]UUl[O@<Nc1iRE0
+IZI<T9?l3`^Q_:31X^G;a32
+!s105 alu_fpga_sv_unit
+S1
+R1
+Z14 w1741164499
+Z15 8../../source/alu_fpga.sv
+Z16 F../../source/alu_fpga.sv
+!i122 111
+L0 6 182
+R10
+31
+R11
+Z17 !s107 ../../source/register_file_if.vh|../../source/cpu_types_pkg.vh|../../source/alu_if.vh|../../source/system_tb.sv|../../source/system.sv|../../source/system_fpga.sv|../../source/register_file.sv|../../source/led_blink.sv|../../source/alu.sv|../../source/alu_fpga.sv|
+R12
+!i113 0
+R13
+R2
+Xalu_fpga_sv_unit
+R3
+R4
+R5
+V4hG6M_X9FFcK4L26`@=Ff3
+r1
+!s85 0
+!i10b 1
+!s100 h47Zo0BS3D5NcLj?QHfUA2
+I4hG6M_X9FFcK4L26`@=Ff3
+!i103 1
+S1
+R1
+R14
+R15
+R16
+Z18 F../../source/alu_if.vh
+Z19 F../../source/cpu_types_pkg.vh
+!i122 111
+Z20 L0 4 0
+R10
+31
+R11
+R17
+R12
+!i113 0
+R13
+R2
+Yalu_if
+R3
+Z21 DXx4 work 13 cpu_types_pkg 0 22 ^EA]D_QZSG>H_T@9na=b<2
+R5
+!i10b 1
+!s100 ISczGIHI<T?aUTHo``fAJ0
+ID<kf701ZY<RLUh@kF4hIc0
+S1
+R1
+w1741160824
+8../../source/alu_if.vh
+R18
+!i122 111
+L0 9 0
+R6
+R10
+r1
+!s85 0
+31
+R11
+R17
+R12
+!i113 0
+R13
+R2
+Xalu_sv_unit
+R3
+R4
+R5
+VaYg1j;zElO@gUQi`695zb0
+r1
+!s85 0
+!i10b 1
+!s100 ^?cUGDh5Ch:h^mk]ee[P72
+IaYg1j;zElO@gUQi`695zb0
+!i103 1
+S1
+R1
+R7
+R8
+R9
+R18
+R19
+!i122 111
+R20
+R10
+31
+R11
+R17
+R12
+!i113 0
+R13
+R2
+Xcpu_types_pkg
+R3
+R5
+!i10b 1
+!s100 mT9ahDoE3^?5C=7GW5SIT3
+I^EA]D_QZSG>H_T@9na=b<2
+S1
+R1
+w1741157697
+8../../source/cpu_types_pkg.vh
+R19
+!i122 111
+R20
+V^EA]D_QZSG>H_T@9na=b<2
+R10
+r1
+!s85 0
+31
+R11
+R17
+R12
+!i113 0
+R13
+R2
+vled_blink
+R3
+R5
+!i10b 1
+!s100 RoFKCRgU=2UWz1?hF8][62
+IiUF0:G6Qi[1TEm3o<T_@83
+S1
+R1
+w1741105834
+8../../source/led_blink.sv
+F../../source/led_blink.sv
+!i122 111
+L0 1 19
+R6
+R10
+r1
+!s85 0
+31
+R11
+R17
+R12
+!i113 0
+R13
+R2
+vregister_file
+R3
+R4
+DXx4 work 21 register_file_sv_unit 0 22 ZTXZ?8Td31cV6V4O8NAE]1
+R5
+R6
+r1
+!s85 0
+!i10b 1
+!s100 P8BoDDcDOVBQ@kR^5Dad=3
+I?a4POkX6dHRlG3=^>2GPn3
+!s105 register_file_sv_unit
+S1
+R1
+Z22 w1741158122
+Z23 8../../source/register_file.sv
+Z24 F../../source/register_file.sv
+!i122 111
+L0 6 35
+R10
+31
+R11
+R17
+R12
+!i113 0
+R13
+R2
+Yregister_file_if
+R3
+R21
+R5
+!i10b 1
+!s100 8oXHNn^GeK9fILAG_88Rf1
+IK@F`dO5E:6j9zJ95n9I[o1
+S1
+R1
+w1741158097
+8../../source/register_file_if.vh
+Z25 F../../source/register_file_if.vh
+!i122 111
+L0 7 0
+R6
+R10
+r1
+!s85 0
+31
+R11
+R17
+R12
+!i113 0
+R13
+R2
+Xregister_file_sv_unit
+R3
+R4
+R5
+VZTXZ?8Td31cV6V4O8NAE]1
+r1
+!s85 0
+!i10b 1
+!s100 hm]V>?F:1k`Z3g^G=VUN92
+IZTXZ?8Td31cV6V4O8NAE]1
+!i103 1
+S1
+R1
+R22
+R23
+R24
+R25
+R19
+!i122 111
+R20
+R10
+31
+R11
+R17
+R12
+!i113 0
+R13
+R2
+vsystem
+R3
+R4
+R5
+!i10b 1
+!s100 iekh[`<n?;^@O9XSU`l=O0
+IiYLzXDGT=7d?c=k=2k:if2
+S1
+R1
+w1741235815
+8../../source/system.sv
+F../../source/system.sv
+!i122 111
+L0 5 90
+R6
+R10
+r1
+!s85 0
+31
+R11
+R17
+R12
+!i113 0
+R13
+R2
+vsystem_fpga
+R3
+R4
+R5
+!i10b 1
+!s100 G:>@X26X4ZIE9ecgY:Aba3
+IhF@2IcgN0NVD8>C]MIh=>0
+S1
+R1
+w1741226940
+8../../source/system_fpga.sv
+F../../source/system_fpga.sv
+!i122 111
+L0 5 616
+R6
+R10
+r1
+!s85 0
+31
+R11
+R17
+R12
+!i113 0
+R13
+R2
+vsystem_tb
+R3
+R5
+!i10b 1
+!s100 o<IC0kN<PV@PU;GDNEnz51
+I0V>B^@ec_Yj_5I6TkhU0o3
+S1
+R1
+w1741225647
+8../../source/system_tb.sv
+F../../source/system_tb.sv
+!i122 111
+L0 5 70
+R6
+R10
+r1
+!s85 0
+31
+R11
+R17
+R12
+!i113 0
+R13
+R2

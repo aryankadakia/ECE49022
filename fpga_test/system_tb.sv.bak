@@ -1,0 +1,31 @@
+`timescale 1ns / 10ps
+module system_tb ();
+
+	localparam CLK_PERIOD = 2.5ns;
+    
+	logic clk, nRst;
+	logic led;
+    
+	always begin
+    	clk = 0;
+    	#(CLK_PERIOD / 2.0);
+    	clk = 1;
+    	#(CLK_PERIOD / 2.0);
+	end
+    
+	system DUT(
+               .clk(clk),
+                .nRst(nRST),
+                .led(led));
+					 
+	initial begin
+    	nRst = 0;
+    	#(CLK_PERIOD*5);
+    	nRst = 1;
+    	#(CLK_PERIOD*10);
+   	 
+    	$finish;
+	end
+               	 
+endmodule
+                	
