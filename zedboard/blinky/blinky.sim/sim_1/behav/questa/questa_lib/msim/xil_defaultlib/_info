@@ -1,0 +1,122 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+!s11f vlog 2022.4_5 2024.06, Jun 21 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/shay/a/kadakia0/ECE49022/zedboard/blinky/blinky.sim/sim_1/behav/questa
+vblinky
+!s110 1743087307
+!i10b 1
+!s100 cFnf_AKh6:OJ@_^B51OQ80
+Ikb9A:NWCR2NT@Of[Pn5`^3
+R1
+w1742854816
+8../../../../blinky.srcs/sources_1/new/blinky.v
+F../../../../blinky.srcs/sources_1/new/blinky.v
+!i122 0
+L0 24 22
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 OL;L;2022.4_5;75
+r1
+!s85 0
+31
+!s108 1743087306.000000
+!s107 ../../../../blinky.srcs/sources_1/new/blinky.v|
+!s90 -incr|-mfcu|-work|xil_defaultlib|../../../../blinky.srcs/sources_1/new/blinky.v|
+!i113 0
+o-mfcu -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z4 tCvgOpt 0
+vblinky_sv
+!s10a 1743452702
+Z5 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z6 !s110 1743453684
+!i10b 1
+!s100 oiIZYNAmZYA3]VMaMLKZK1
+I4hj?Djje3YEn33]jY7Y2_3
+S1
+R1
+w1743452702
+8../../../../blinky.srcs/sources_1/new/blinky_sv.sv
+F../../../../blinky.srcs/sources_1/new/blinky_sv.sv
+!i122 2
+L0 23 24
+R2
+R3
+r1
+!s85 0
+31
+Z7 !s108 1743453683.000000
+Z8 !s107 ../../../../blinky.srcs/sources_1/new/blinky_sv.sv|../../../../blinky.srcs/sources_1/new/clock_divider.sv|
+Z9 !s90 -incr|-mfcu|-sv|-work|xil_defaultlib|../../../../blinky.srcs/sources_1/new/clock_divider.sv|../../../../blinky.srcs/sources_1/new/blinky_sv.sv|
+!i113 0
+Z10 o-mfcu -sv -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+Tblinky_sv_opt
+!s110 1743457364
+V57Y]mU1hSYeN>5kcc6B260
+04 9 4 work blinky_sv fast 0
+04 4 4 work glbl fast 0
+R0
+!s12b OEM100
+!s124 OEM100
+o-suppress 10016 +acc=npr -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -work xil_defaultlib
+R4
+nblinky_sv_opt
+OL;O;2022.4_5;75
+vclock_divider
+!s10a 1743453128
+R5
+R6
+!i10b 1
+!s100 YVMQbkY_EGKofagW[kDmM2
+IFcGehL3`z8MV87J3_8ZWN3
+S1
+R1
+w1743453128
+8../../../../blinky.srcs/sources_1/new/clock_divider.sv
+F../../../../blinky.srcs/sources_1/new/clock_divider.sv
+!i122 2
+L0 23 28
+R2
+R3
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R4
+vglbl
+!s110 1743457363
+!i10b 1
+!s100 ZHmTNm_h3dd`6mIQLzSUN3
+IhdBVXCILC99TF;U<AK;MM2
+R1
+w1697210495
+8glbl.v
+Fglbl.v
+!i122 6
+L0 6 78
+R2
+OE;L;2022.4_5;75
+r1
+!s85 0
+31
+!s108 1743457363.000000
+!s107 glbl.v|
+!s90 -work|xil_defaultlib|glbl.v|
+!i113 0
+o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4

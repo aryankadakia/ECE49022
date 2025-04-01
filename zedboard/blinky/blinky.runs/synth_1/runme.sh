@@ -37,4 +37,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log blinky.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source blinky.tcl
+EAStep vivado -log blinky_sv.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source blinky_sv.tcl

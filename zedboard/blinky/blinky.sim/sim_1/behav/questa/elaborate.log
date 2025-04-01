@@ -1,0 +1,20 @@
+QuestaSim-64 vopt 2022.4_5 Compiler 2024.06 Jun 21 2024
+** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+Start time: 17:42:43 on Mar 31,2025
+vopt "+acc=npr" -suppress 10016 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -work xil_defaultlib xil_defaultlib.blinky_sv xil_defaultlib.glbl -o blinky_sv_opt 
+
+Top level modules:
+	blinky_sv
+	glbl
+
+Analyzing design...
+-- Loading module blinky_sv
+-- Loading module glbl
+-- Loading module clock_divider
+Optimizing 3 design-units (inlining 0/3 module instances):
+-- Optimizing module glbl(fast)
+-- Optimizing module clock_divider(fast)
+-- Optimizing module blinky_sv(fast)
+Optimized design name is blinky_sv_opt
+End time: 17:42:45 on Mar 31,2025, Elapsed time: 0:00:02
+Errors: 0, Warnings: 1

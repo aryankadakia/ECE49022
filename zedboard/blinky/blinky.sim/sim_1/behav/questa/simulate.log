@@ -1,0 +1,29 @@
+# //  Questa Sim-64
+# //  Version 2022.4_5 linux_x86_64 Jun 21 2024
+# //
+# //  Copyright 1991-2024 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do {blinky_sv_simulate.do}
+# vsim -lib xil_defaultlib blinky_sv_opt 
+# Start time: 17:42:56 on Mar 31,2025
+# Loading sv_std.std
+# Loading work.blinky_sv(fast)
+# Loading work.clock_divider(fast)
+# Loading work.glbl(fast)
+# 1
+# 1
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+run -a
+# End time: 17:44:23 on Mar 31,2025, Elapsed time: 0:01:27
+# Errors: 0, Warnings: 0

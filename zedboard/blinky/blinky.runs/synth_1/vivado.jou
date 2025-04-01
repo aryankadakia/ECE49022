@@ -3,12 +3,12 @@
 # SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Mon Mar 24 18:45:52 2025
-# Process ID: 1884715
+# Start of session at: Mon Mar 31 16:32:31 2025
+# Process ID: 1306881
 # Current directory: /home/shay/a/kadakia0/ECE49022/zedboard/blinky/blinky.runs/synth_1
-# Command line: vivado -log blinky.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source blinky.tcl
-# Log file: /home/shay/a/kadakia0/ECE49022/zedboard/blinky/blinky.runs/synth_1/blinky.vds
+# Command line: vivado -log blinky_sv.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source blinky_sv.tcl
+# Log file: /home/shay/a/kadakia0/ECE49022/zedboard/blinky/blinky.runs/synth_1/blinky_sv.vds
 # Journal file: /home/shay/a/kadakia0/ECE49022/zedboard/blinky/blinky.runs/synth_1/vivado.jou
 # Running On: bhee65lnx07.ecn.purdue.edu, OS: Linux, CPU Frequency: 3400.000 MHz, CPU Physical cores: 4, Host memory: 16319 MB
 #-----------------------------------------------------------
-source blinky.tcl -notrace
+source blinky_sv.tcl -notrace
