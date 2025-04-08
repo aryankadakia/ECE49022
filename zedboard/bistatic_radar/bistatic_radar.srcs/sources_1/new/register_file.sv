@@ -1,0 +1,36 @@
+`timescale 1ns / 1ps
+`include "register_file_if.vh"
+
+module register_file(
+    input logic CLK,
+    input logic nRst,
+    register_file_if.rf rfif
+);
+
+    logic [31:0] [31:0] register;
+    logic [31:0] [31:0] next_register;
+
+    always_ff @(posedge CLK, negedge nRst) begin 
+        if(!nRst) begin
+            register <= '0;
+        end 
+        else begin 
+            register <= next_register;
+        end 
+    end
+
+    always_comb begin : WRITE_READ
+        next_register = register;
+        rfif.rdat1  = '0;
+        rfif.rdat2  = '0;
+        if(rfif.WEN && rfif.wsel != 5'd0) begin
+            next_register[rfif.wsel] = rfif.wdat;
+        end
+        if(rfif.rsel1) begin 
+            rfif.rdat1 = register[rfif.rsel1];
+        end 
+        if(rfif.rsel2) begin 
+            rfif.rdat2 = register[rfif.rsel2];
+        end 
+    end
+endmodule
