@@ -1,18 +1,22 @@
 onerror {resume}
 quietly WaveActivateNextPane {} 0
-add wave -noupdate /register_file_tb/CLK
-add wave -noupdate /register_file_tb/nRST
-add wave -noupdate /register_file_tb/DUT/register
-add wave -noupdate /register_file_tb/DUT/next_register
-add wave -noupdate /register_file_tb/rfif/WEN
-add wave -noupdate /register_file_tb/rfif/wsel
-add wave -noupdate /register_file_tb/rfif/rsel1
-add wave -noupdate /register_file_tb/rfif/rsel2
-add wave -noupdate /register_file_tb/rfif/wdat
-add wave -noupdate /register_file_tb/rfif/rdat1
-add wave -noupdate /register_file_tb/rfif/rdat2
+add wave -noupdate /system_tb/CLK
+add wave -noupdate /system_tb/nRst
+add wave -noupdate /system_tb/start
+add wave -noupdate /system_tb/m_sequence
+add wave -noupdate /system_tb/peak_found
+add wave -noupdate /glbl/GSR
+add wave -noupdate /system_tb/CLK
+add wave -noupdate /system_tb/nRst
+add wave -noupdate /system_tb/start
+add wave -noupdate -radix binary /system_tb/m_sequence
+add wave -noupdate /system_tb/peak_found
+add wave -noupdate -radix decimal /system_tb/DUT/sum
+add wave -noupdate /system_tb/tb_state
+add wave -noupdate /system_tb/DUT/RF/register
+add wave -noupdate -radix binary /system_tb/DUT/sample
 TreeUpdate [SetDefaultTree]
-WaveRestoreCursors {{Cursor 1} {1280000 ps} 0}
+WaveRestoreCursors {{Cursor 1} {18521 ps} 0}
 quietly wave cursor active 1
 configure wave -namecolwidth 150
 configure wave -valuecolwidth 100
@@ -28,4 +32,4 @@ configure wave -griddelta 40
 configure wave -timeline 0
 configure wave -timelineunits ps
 update
-WaveRestoreZoom {1024 ns} {1280 ns}
+WaveRestoreZoom {0 ps} {70282 ps}

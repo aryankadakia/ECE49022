@@ -3,12 +3,11 @@
 # SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Tue Apr  8 10:13:49 2025
-# Process ID: 40894
+# Start of session at: Thu Apr 10 09:16:33 2025
+# Process ID: 332729
 # Current directory: /home/shay/a/kadakia0/ECE49022/zedboard/bistatic_radar/bistatic_radar.runs/synth_1
 # Command line: vivado -log system.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source system.tcl
 # Log file: /home/shay/a/kadakia0/ECE49022/zedboard/bistatic_radar/bistatic_radar.runs/synth_1/system.vds
 # Journal file: /home/shay/a/kadakia0/ECE49022/zedboard/bistatic_radar/bistatic_radar.runs/synth_1/vivado.jou
 # Running On: bhee65lnx07.ecn.purdue.edu, OS: Linux, CPU Frequency: 3400.000 MHz, CPU Physical cores: 4, Host memory: 16319 MB
 #-----------------------------------------------------------
-source system.tcl -notrace

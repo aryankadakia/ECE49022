@@ -25,8 +25,10 @@ module system(
 	logic [3:0] counter, next_counter;
 	logic [6:0] port_output;
 	logic [4:0] upper_bound, lower_bound;
-	logic [3:0] sum;
-	logic [3:0] peak;
+	logic signed [3:0] sum;
+	logic signed [3:0] peak;
+	logic signed [1:0] a;
+	logic signed [1:0] b;
 
     always_ff @(posedge CLK, negedge nRst) begin 
 		if(!nRst) begin 
@@ -68,17 +70,29 @@ always_comb begin : OUTPUT_LOGIC
 		rfif.wdat = '0;
 		case(state)
 			SHIFT: begin
-				port_output = m_sequence & sample[18 - counter -: 7];
+				// port_output = m_sequence & sample[18 - counter -: 7];
 				for (int i = 0; i < 7; i++) begin
-					sum = sum + port_output[i];
+					//sum = sum + port_output[i];
+					// Convert each bit to +1/-1 signed values
+					a = (m_sequence[i]) ? 1 : -1;
+					b = (sample[18 - counter - i]) ? 1 : -1;
+					sum += a * b;
 				end
-				if(port_output == m_sequence) begin 
+				if(sum == 7) begin 
 					peak_found = 1;
 					peak = sum;
 					rfif.WEN = 1;
 					rfif.wsel = 4;
 					rfif.wdat = peak;
+
 				end 
+				// if(port_output == m_sequence) begin 
+				// 	peak_found = 1;
+				// 	peak = sum;
+				// 	rfif.WEN = 1;
+				// 	rfif.wsel = 4;
+				// 	rfif.wdat = peak;
+				// end 
 			end
 		endcase
 	end 
