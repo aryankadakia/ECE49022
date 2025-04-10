@@ -1,0 +1,13 @@
+boot_2019_r1_2020_02_04
+
+HDL repo: https://github.com/analogdevicesinc/hdl
+HDL branch: hdl_2019_r1
+HDL SHA: f61d9707eb0a62533efd6facab59ab2444da94c9
+
+Linux (Intel) repo: https://github.com/analogdevicesinc/linux
+Linux (Intel) branch: 2019_R1_altera
+Linux (Intel) SHA: e70c7af303566bdf4f2622d4b33d6751468d94ce
+
+Linux (Xilinx) repo: https://github.com/analogdevicesinc/linux
+Linux (Xilinx) branch: 2019_R1
+Linux (Xilinx) SHA: 8a57edeb4d366d34095ee6be6a86cb30b65ddd10
