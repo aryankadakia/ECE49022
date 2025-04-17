@@ -14,6 +14,22 @@ R0
 R0
 R0
 R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
 !s11f vlog 2022.4_5 2024.06, Jun 21 2024
 13
 !s112 1.1
@@ -22,8 +38,136 @@ R0
 !i10f 100
 cModel Technology
 Z1 d/home/shay/a/kadakia0/ECE49022/zedboard/bistatic_radar/bistatic_radar.sim/sim_1/behav/questa
+vauto_correlation
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1744763865
+!i10b 1
+!s100 DHf7]fRAh7iX8UGzPQgnf0
+I;UcSDLbo@miB5henHH68T1
+S1
+R1
+w1744763840
+8../../../../bistatic_radar.srcs/sources_1/new/auto_correlation.sv
+F../../../../bistatic_radar.srcs/sources_1/new/auto_correlation.sv
+!i122 48
+L0 3 10
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OL;L;2022.4_5;75
+r1
+!s85 0
+31
+!s108 1744763865.000000
+Z5 !s107 ../../../../bistatic_radar.srcs/sim_1/new/auto_correlation_tb.sv|../../../../bistatic_radar.srcs/sources_1/new/auto_correlation.sv|
+Z6 !s90 -incr|-mfcu|-sv|-work|xil_defaultlib|+incdir+../../../../bistatic_radar.srcs/sources_1/new|../../../../bistatic_radar.srcs/sources_1/new/auto_correlation.sv|../../../../bistatic_radar.srcs/sim_1/new/auto_correlation_tb.sv|
+!i113 0
+Z7 o-mfcu -sv -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 !s92 -mfcu -sv -work xil_defaultlib +incdir+../../../../bistatic_radar.srcs/sources_1/new -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z9 tCvgOpt 0
+vauto_correlation_tb
+!s10a 1744732567
+R2
+!s110 1744732576
+!i10b 1
+!s100 QG8HRNX[CQgeFX?g3`oo_0
+I7kF9_OIN`L;Fo=VIga^gm0
+S1
+R1
+w1744732567
+8../../../../bistatic_radar.srcs/sim_1/new/auto_correlation_tb.sv
+F../../../../bistatic_radar.srcs/sim_1/new/auto_correlation_tb.sv
+!i122 45
+L0 4 25
+R3
+R4
+r1
+!s85 0
+31
+!s108 1744732576.000000
+R5
+R6
+!i113 0
+R7
+R8
+R9
+Tauto_correlation_tb_opt
+!s110 1744763866
+VlPEgf22f@;zhji]^ZX5dg3
+04 19 4 work auto_correlation_tb fast 0
+Z10 04 4 4 work glbl fast 0
+R0
+Z11 !s12b OEM100
+Z12 !s124 OEM100
+Z13 o-suppress 10016 +acc=npr -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -work xil_defaultlib
+R9
+nauto_correlation_tb_opt
+Z14 OL;O;2022.4_5;75
+R1
+vbutterfly
+!s10a 1744846261
+R2
+!s110 1744846281
+!i10b 1
+!s100 J1BkL`3MV5L[An6a6YFOS1
+I>0b=G74d6n=ODLI:Q>boY0
+S1
+R1
+w1744846261
+8../../../../bistatic_radar.srcs/sources_1/new/butterfly.sv
+F../../../../bistatic_radar.srcs/sources_1/new/butterfly.sv
+!i122 52
+L0 4 17
+R3
+R4
+r1
+!s85 0
+31
+!s108 1744846281.000000
+Z15 !s107 ../../../../bistatic_radar.srcs/sim_1/new/butterfly_tb.sv|../../../../bistatic_radar.srcs/sources_1/new/butterfly.sv|
+Z16 !s90 -incr|-mfcu|-sv|-work|xil_defaultlib|+incdir+../../../../bistatic_radar.srcs/sources_1/new|../../../../bistatic_radar.srcs/sources_1/new/butterfly.sv|../../../../bistatic_radar.srcs/sim_1/new/butterfly_tb.sv|
+!i113 0
+R7
+R8
+R9
+vbutterfly_tb
+R2
+!s110 1744847225
+!i10b 1
+!s100 f8G[Ik?0MQ=kclW@iC<1O1
+IX0b9B2M]fXEYJS?I^djlz2
+S1
+R1
+w1744847209
+8../../../../bistatic_radar.srcs/sim_1/new/butterfly_tb.sv
+F../../../../bistatic_radar.srcs/sim_1/new/butterfly_tb.sv
+!i122 64
+L0 3 30
+R3
+R4
+r1
+!s85 0
+31
+!s108 1744847225.000000
+R15
+R16
+!i113 0
+R7
+R8
+R9
+Tbutterfly_tb_opt
+!s110 1744847226
+V81N:z3V>NUMB<8WT1AYYg2
+04 12 4 work butterfly_tb fast 0
+R10
+R0
+R11
+R12
+R13
+R9
+nbutterfly_tb_opt
+R14
+R1
 vglbl
-Z2 !s110 1744290382
+Z17 !s110 1744896625
 !i10b 1
 !s100 ZHmTNm_h3dd`6mIQLzSUN3
 IhdBVXCILC99TF;U<AK;MM2
@@ -31,48 +175,137 @@ R1
 w1697210495
 8glbl.v
 Fglbl.v
-!i122 38
+!i122 72
 L0 6 78
-Z3 VDg1SIo80bB@j0V0VzS_@n1
+R3
 OE;L;2022.4_5;75
 r1
 !s85 0
 31
-Z4 !s108 1744290382.000000
+!s108 1744896625.000000
 !s107 glbl.v|
 !s90 -work|xil_defaultlib|glbl.v|
 !i113 0
 o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-Z5 tCvgOpt 0
+R9
+vmultiply
+!s10a 1744850606
+R2
+!s110 1744850759
+!i10b 1
+!s100 kne82Loob[Z]dSY=HUe[O2
+IBkKQFkYI20bRUK=CYGYPT3
+S1
+R1
+w1744850606
+8../../../../bistatic_radar.srcs/sources_1/new/multiply.sv
+F../../../../bistatic_radar.srcs/sources_1/new/multiply.sv
+!i122 69
+L0 4 21
+R3
+R4
+r1
+!s85 0
+31
+!s108 1744850759.000000
+Z18 !s107 ../../../../bistatic_radar.srcs/sim_1/new/multiply_tb.sv|../../../../bistatic_radar.srcs/sources_1/new/multiply.sv|
+Z19 !s90 -incr|-mfcu|-sv|-work|xil_defaultlib|+incdir+../../../../bistatic_radar.srcs/sources_1/new|../../../../bistatic_radar.srcs/sources_1/new/multiply.sv|../../../../bistatic_radar.srcs/sim_1/new/multiply_tb.sv|
+!i113 0
+R7
+R8
+R9
+vmultiply_tb
+R2
+R17
+!i10b 1
+!s100 <ChJNcW6iHVVZMiB?;_LI0
+IF;nSHnGg3WlT==ldX4U3o3
+S1
+R1
+w1744896580
+8../../../../bistatic_radar.srcs/sim_1/new/multiply_tb.sv
+F../../../../bistatic_radar.srcs/sim_1/new/multiply_tb.sv
+!i122 71
+Z20 L0 3 27
+R3
+R4
+r1
+!s85 0
+31
+!s108 1744896623.000000
+R18
+R19
+!i113 0
+R7
+R8
+R9
+Tmultiply_tb_opt
+!s110 1744896629
+V=@_9EeU01OYOc@PGm0L:R0
+04 11 4 work multiply_tb fast 0
+R10
+R0
+R11
+R12
+R13
+R9
+nmultiply_tb_opt
+R14
+vmultipy_tb
+!s10a 1744849104
+R2
+!s110 1744849144
+!i10b 1
+!s100 2QKXkj47SHcCnWDdjLNLR0
+I8SKjQYlTa5z=A^]Hg^e763
+S1
+R1
+w1744849104
+8../../../../bistatic_radar.srcs/sim_1/new/multipy_tb.sv
+F../../../../bistatic_radar.srcs/sim_1/new/multipy_tb.sv
+!i122 66
+R20
+R3
+R4
+r1
+!s85 0
+31
+!s108 1744849144.000000
+!s107 ../../../../bistatic_radar.srcs/sim_1/new/multipy_tb.sv|
+!s90 -incr|-mfcu|-sv|-work|xil_defaultlib|+incdir+../../../../bistatic_radar.srcs/sources_1/new|../../../../bistatic_radar.srcs/sim_1/new/multipy_tb.sv|
+!i113 0
+R7
+R8
+R9
 4prog
 !s10a 1743637763
-Z6 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-Z7 !s110 1743637799
+R2
+Z21 !s110 1743637799
 !i10b 1
 !s100 B5>Y4X5K0eGe^c^1MHgP30
 IeFSzNhoVDX5J>91GMNfoP0
 S1
 R1
 w1743637763
-Z8 8../../../../bistatic_radar.srcs/sources_1/new/register_file_tb.sv
-Z9 F../../../../bistatic_radar.srcs/sources_1/new/register_file_tb.sv
+Z22 8../../../../bistatic_radar.srcs/sources_1/new/register_file_tb.sv
+Z23 F../../../../bistatic_radar.srcs/sources_1/new/register_file_tb.sv
 !i122 9
 L0 37 0
 R3
-Z10 OL;L;2022.4_5;75
+R4
 r1
 !s85 0
 31
-Z11 !s108 1743637799.000000
-Z12 !s107 ../../../../bistatic_radar.srcs/sources_1/new/register_file_if.vh|../../../../bistatic_radar.srcs/sources_1/new/register_file_tb.sv|../../../../bistatic_radar.srcs/sources_1/new/test.sv|../../../../bistatic_radar.srcs/sources_1/new/register_file.sv|
-Z13 !s90 -incr|-mfcu|-sv|-work|xil_defaultlib|+incdir+../../../../bistatic_radar.srcs/sources_1/new|../../../../bistatic_radar.srcs/sources_1/new/register_file.sv|../../../../bistatic_radar.srcs/sources_1/new/test.sv|../../../../bistatic_radar.srcs/sources_1/new/register_file_tb.sv|
+Z24 !s108 1743637799.000000
+Z25 !s107 ../../../../bistatic_radar.srcs/sources_1/new/register_file_if.vh|../../../../bistatic_radar.srcs/sources_1/new/register_file_tb.sv|../../../../bistatic_radar.srcs/sources_1/new/test.sv|../../../../bistatic_radar.srcs/sources_1/new/register_file.sv|
+Z26 !s90 -incr|-mfcu|-sv|-work|xil_defaultlib|+incdir+../../../../bistatic_radar.srcs/sources_1/new|../../../../bistatic_radar.srcs/sources_1/new/register_file.sv|../../../../bistatic_radar.srcs/sources_1/new/test.sv|../../../../bistatic_radar.srcs/sources_1/new/register_file_tb.sv|
 !i113 0
-Z14 o-mfcu -sv -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-Z15 !s92 -mfcu -sv -work xil_defaultlib +incdir+../../../../bistatic_radar.srcs/sources_1/new -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R5
+R7
+R8
+R9
 vregister_file
 !s10a 1744125037
-R6
+R2
 !s110 1744125089
 !i10b 1
 !s100 2YXY=dC2UcocHXLT<A^^g2
@@ -85,21 +318,21 @@ F../../../../bistatic_radar.srcs/sources_1/new/register_file.sv
 !i122 31
 L0 4 33
 R3
-R10
+R4
 r1
 !s85 0
 31
 !s108 1744125089.000000
-Z16 !s107 ../../../../bistatic_radar.srcs/sources_1/new/register_file_if.vh|../../../../bistatic_radar.srcs/sources_1/new/system_tb.sv|../../../../bistatic_radar.srcs/sources_1/new/system.sv|../../../../bistatic_radar.srcs/sources_1/new/register_file.sv|
-Z17 !s90 -incr|-mfcu|-sv|-work|xil_defaultlib|+incdir+../../../../bistatic_radar.srcs/sources_1/new|../../../../bistatic_radar.srcs/sources_1/new/register_file.sv|../../../../bistatic_radar.srcs/sources_1/new/system.sv|../../../../bistatic_radar.srcs/sources_1/new/system_tb.sv|
+Z27 !s107 ../../../../bistatic_radar.srcs/sources_1/new/register_file_if.vh|../../../../bistatic_radar.srcs/sources_1/new/system_tb.sv|../../../../bistatic_radar.srcs/sources_1/new/system.sv|../../../../bistatic_radar.srcs/sources_1/new/register_file.sv|
+Z28 !s90 -incr|-mfcu|-sv|-work|xil_defaultlib|+incdir+../../../../bistatic_radar.srcs/sources_1/new|../../../../bistatic_radar.srcs/sources_1/new/register_file.sv|../../../../bistatic_radar.srcs/sources_1/new/system.sv|../../../../bistatic_radar.srcs/sources_1/new/system_tb.sv|
 !i113 0
-R14
-R15
-R5
+R7
+R8
+R9
 Yregister_file_if
 !s10a 1743636835
-R6
-R7
+R2
+R21
 !i10b 1
 !s100 nKb2?3[Re61khRiji=>ih1
 IU8e1T6a5HO@n=8Y5`Ln123
@@ -111,20 +344,20 @@ F../../../../bistatic_radar.srcs/sources_1/new/register_file_if.vh
 !i122 9
 L0 4 0
 R3
-R10
+R4
 r1
 !s85 0
 31
-R11
-R12
-R13
+R24
+R25
+R26
 !i113 0
-R14
-R15
-R5
+R7
+R8
+R9
 vregister_file_tb
 !s10a 1743640914
-R6
+R2
 !s110 1743640998
 !i10b 1
 !s100 K=8zb6Z2Hib0ANJo_``fD2
@@ -132,12 +365,12 @@ IX<OQkemBGDP<=KEEQanAF1
 S1
 R1
 w1743640914
-R8
-R9
+R22
+R23
 !i122 14
 L0 5 61
 R3
-R10
+R4
 r1
 !s85 0
 31
@@ -145,25 +378,25 @@ r1
 !s107 ../../../../bistatic_radar.srcs/sources_1/new/register_file_if.vh|../../../../bistatic_radar.srcs/sources_1/new/register_file_tb.sv|../../../../bistatic_radar.srcs/sources_1/new/register_file.sv|
 !s90 -incr|-mfcu|-sv|-work|xil_defaultlib|+incdir+../../../../bistatic_radar.srcs/sources_1/new|../../../../bistatic_radar.srcs/sources_1/new/register_file.sv|../../../../bistatic_radar.srcs/sources_1/new/register_file_tb.sv|
 !i113 0
-R14
-R15
-R5
+R7
+R8
+R9
 Tregister_file_tb_opt
 !s110 1744123464
 V1HL[QCS73UG2GYf;BX<Um3
 04 16 4 work register_file_tb fast 0
-Z18 04 4 4 work glbl fast 0
+R10
 R0
-Z19 !s12b OEM100
-Z20 !s124 OEM100
-Z21 o-suppress 10016 +acc=npr -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -work xil_defaultlib
-R5
+R11
+R12
+R13
+R9
 nregister_file_tb_opt
-Z22 OL;O;2022.4_5;75
+R14
 R1
 vsystem
-R6
 R2
+!s110 1744290382
 !i10b 1
 !s100 ^DD43LOag<b8SYVIDcB;n1
 I<CfHPaX6VLL42IE5ni4:j0
@@ -175,20 +408,20 @@ F../../../../bistatic_radar.srcs/sources_1/new/system.sv
 !i122 37
 L0 4 99
 R3
-R10
+R4
 r1
 !s85 0
 31
-R4
-R16
-R17
+!s108 1744290382.000000
+R27
+R28
 !i113 0
-R14
-R15
-R5
+R7
+R8
+R9
 vsystem_tb
 !s10a 1744288757
-R6
+R2
 !s110 1744289585
 !i10b 1
 !s100 =AQUS_Z0a<zEU]R0o5>9^0
@@ -201,33 +434,34 @@ F../../../../bistatic_radar.srcs/sources_1/new/system_tb.sv
 !i122 35
 L0 3 70
 R3
-R10
+R4
 r1
 !s85 0
 31
 !s108 1744289583.000000
-R16
-R17
+R27
+R28
 !i113 0
-R14
-R15
-R5
+R7
+R8
+R9
 Tsystem_tb_opt
 !s110 1744290383
 VC:`S882Ca3J41DJn<HVN]3
 04 9 4 work system_tb fast 0
-R18
+R10
 R0
-R19
-R20
-R21
-R5
+R11
+R12
+R13
+R9
 nsystem_tb_opt
-R22
+R14
+R1
 vtest
 !s10a 1743514983
-R6
-R7
+R2
+R21
 !i10b 1
 !s100 ndKBC_hLJK=7oQ^JZ2mYR1
 Id@NOQ2]1`CY8PKXz46[QX1
@@ -239,33 +473,33 @@ F../../../../bistatic_radar.srcs/sources_1/new/test.sv
 !i122 9
 L0 23 8
 R3
-R10
+R4
 r1
 !s85 0
 31
-R11
-R12
-R13
+R24
+R25
+R26
 !i113 0
-R14
-R15
-R5
+R7
+R8
+R9
 Ttest_opt
 !s110 1743514107
 V:OFWKgJ8=f1A`Ghde>GMH0
 04 4 4 work test fast 0
-R18
+R10
 R0
-R19
-R20
-R21
-R5
+R11
+R12
+R13
+R9
 ntest_opt
-R22
+R14
 R1
 vtest_tb
 !s10a 1743514992
-R6
+R2
 !s110 1743515010
 !i10b 1
 !s100 0=2C4L;mJBJB^B@=@igLA2
@@ -278,7 +512,7 @@ F../../../../bistatic_radar.srcs/sources_1/new/test_tb.sv
 !i122 4
 L0 23 23
 R3
-R10
+R4
 r1
 !s85 0
 31
@@ -286,18 +520,18 @@ r1
 !s107 ../../../../bistatic_radar.srcs/sources_1/new/test_tb.sv|../../../../bistatic_radar.srcs/sources_1/new/test.sv|
 !s90 -incr|-mfcu|-sv|-work|xil_defaultlib|../../../../bistatic_radar.srcs/sources_1/new/test.sv|../../../../bistatic_radar.srcs/sources_1/new/test_tb.sv|
 !i113 0
-R14
-R5
+R7
+R9
 Ttest_tb_opt
 !s110 1743633992
 VY;k7lZnbbb>Ve5bJ_;`F00
 04 7 4 work test_tb fast 0
-R18
+R10
 R0
-R19
-R20
-R21
-R5
+R11
+R12
+R13
+R9
 ntest_tb_opt
-R22
+R14
 R1

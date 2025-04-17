@@ -15,11 +15,12 @@ $(WORK_LIB):
 # Compile design + testbench
 compile: $(WORK_LIB)
 	vlog -work $(WORK_LIB) $(SRC_FILES)
+	vlog -work $(WORK_LIB) $(TB_FILES)
 
 # Run simulation in terminal mode
 sim: compile
 	vsim -c work.test_tb -do "run -all; quit"
 
-# Clean up generated files
+# Clean up generated files vsim -c work.test_tb -do "run -all; quit"
 clean:
 	rm -rf $(WORK_LIB) transcript vsim.wlf

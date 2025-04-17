@@ -3,3 +3,8 @@
     <Process Command="vivado" Owner="kadakia0" Host="bhee65lnx07.ecn.purdue.edu" Pid="317158" HostCore="8" HostMemory="15936680">
     </Process>
 </ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado" Owner="kadakia0" Host="bhee65lnx07.ecn.purdue.edu" Pid="334309" HostCore="8" HostMemory="15936680">
+    </Process>
+</ProcessHandle>

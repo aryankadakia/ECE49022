@@ -1,21 +1,19 @@
 QuestaSim-64 vopt 2022.4_5 Compiler 2024.06 Jun 21 2024
 ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
-Start time: 09:06:23 on Apr 10,2025
-vopt "+acc=npr" -suppress 10016 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -work xil_defaultlib xil_defaultlib.system_tb xil_defaultlib.glbl -o system_tb_opt 
+Start time: 09:30:26 on Apr 17,2025
+vopt "+acc=npr" -suppress 10016 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -work xil_defaultlib xil_defaultlib.multiply_tb xil_defaultlib.glbl -o multiply_tb_opt 
 
 Top level modules:
-	system_tb
+	multiply_tb
 	glbl
 
 Analyzing design...
--- Loading module system_tb
+-- Loading module multiply_tb
 -- Loading module glbl
--- Loading module system
--- Loading interface register_file_if
--- Loading module register_file
-Incremental compilation check found 5 design-units (out of 6) may be reused.
-Optimizing 1 design-unit (inlining 0/5 module instances):
--- Optimizing module system(fast)
-Optimized design name is system_tb_opt
-End time: 09:06:23 on Apr 10,2025, Elapsed time: 0:00:00
+-- Loading module multiply
+Incremental compilation check found 2 design-units (out of 3) may be reused.
+Optimizing 1 design-unit (inlining 0/3 module instances):
+-- Optimizing module multiply_tb(fast)
+Optimized design name is multiply_tb_opt
+End time: 09:30:30 on Apr 17,2025, Elapsed time: 0:00:04
 Errors: 0, Warnings: 1

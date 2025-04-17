@@ -11,3 +11,4 @@
 # Journal file: /home/shay/a/kadakia0/ECE49022/zedboard/bistatic_radar/bistatic_radar.runs/synth_1/vivado.jou
 # Running On: bhee65lnx07.ecn.purdue.edu, OS: Linux, CPU Frequency: 3400.000 MHz, CPU Physical cores: 4, Host memory: 16319 MB
 #-----------------------------------------------------------
+source system.tcl -notrace
